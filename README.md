@@ -5,7 +5,9 @@ Defining a "adopted  user" as a user who has logged into the product on three se
 
 ### Data Wrangling & Feature Engineering
 
-I first created the adopted_user feature by resampling the logins table to each day and grouping by user_id. I then used a rolling 7 day count to set the adopted_user column to a 1 if the count was 3 or more, and a 0 if less than 3. This is the main feature used in predicting user adoption. Another feature I created is "invited_by_user", is set it to 1 if the "invited_by_user_id" is greater than 0, otherwise it is a 0. LLastly I created a feature based on whether a user is part of an organization, if it is set it to 1, otherwise 0.
+I first created the adopted_user feature by resampling the logins table to each day and grouping by user_id. I then used a rolling 7 day count to set the adopted_user column to a 1 if the count was 3 or more, and a 0 if less than 3. This is the main feature used in predicting user adoption. I then merged the login table and the user information table using the user_id to join them.
+
+I created 2 features from the user information table. The first is "invited_by_user", is set it to 1 if the "invited_by_user_id" is greater than 0, otherwise it is a 0. Then I created a feature based on whether a user is part of an organization using the 'org_id' column, if it not empty set it to 1, otherwise 0.
 
 ### Exploratory Data Analysis
 The graphs below show the count of adopted users based on the features that will be used in predicting user adoption.
