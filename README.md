@@ -21,7 +21,14 @@
 #### Modeling
 
 #### Results
-![image](https://user-images.githubusercontent.com/41071502/133364588-336a6c22-3019-4187-bd1d-dd7562add24e.png)
+
+The accuracy score of the model is approximately 91%. The area under the curve is 51%, this does not necessarily mean the model has not performed well, the link below provides a detailed explanation as to why an ROC curve could look like the graph below. 
+
+https://www.r-bloggers.com/2019/03/what-it-the-interpretation-of-the-diagonal-for-a-roc-curve/
+
+![image](https://user-images.githubusercontent.com/41071502/133364648-a977936b-45da-4630-83be-f00ff0808d73.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/41071502/133364600-fc26e7d6-a4e6-439a-ac34-b746441205f9.png)
 
