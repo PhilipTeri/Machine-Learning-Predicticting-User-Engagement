@@ -10,6 +10,14 @@ I first created the adopted_user feature by resampling the logins table to each 
 ### Exploratory Data Analysis
 The graphs below show the count of adopted users based on the features that will be used in predicting user adoption.
 
+
+
+<img src="https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png" alt="alt text" width="250" height="200">
+<img src="url" alt="alt text" width="whatever" height="whatever">
+<img src="url" alt="alt text" width="whatever" height="whatever">
+<img src="url" alt="alt text" width="whatever" height="whatever">
+<img src="url" alt="alt text" width="whatever" height="whatever">
+
 ![image](https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png =250x250)
 ![image](https://user-images.githubusercontent.com/41071502/133360803-45f56dc9-0220-4ccc-be38-416e3da55279.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360815-fa7d3e29-3572-4ef0-9664-05aef3971bf2.png)
