@@ -1,3 +1,3 @@
-#### Relax-Inc---Take-Home-Predictive-Modelling-
+# Predictive Modelling Take Home Assignment
 
 
