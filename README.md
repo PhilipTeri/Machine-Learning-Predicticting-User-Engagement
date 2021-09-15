@@ -1,12 +1,12 @@
 # Predictive Modelling Take Home Assignment
 
-## Purpose
+### Purpose
 
-## Data Wrangling
+### Data Wrangling
 
-## Feature Engineering
+### Feature Engineering
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 ![image](https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360803-45f56dc9-0220-4ccc-be38-416e3da55279.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360815-fa7d3e29-3572-4ef0-9664-05aef3971bf2.png)
@@ -18,9 +18,9 @@
 ![image](https://user-images.githubusercontent.com/41071502/133361131-c77cd7f6-ba2a-4eda-a759-329972a35dff.png)
 
 
-## Modeling
+### Modeling
 
-## Results
+### Results
 
 The accuracy score of the model is approximately 91%. The area under the curve is 51%, this does not necessarily mean the model has not performed well, the link below provides a detailed explanation as to why an ROC curve could look like the graph below. 
 
@@ -32,7 +32,7 @@ The graph below shows the importance of each feature in. The higher the value th
 ![image](https://user-images.githubusercontent.com/41071502/133364600-fc26e7d6-a4e6-439a-ac34-b746441205f9.png)
 
 
-## Future Improvements
+### Future Improvements
 I added a bonus modeling section in my notebook, I used the same data and features but applied 5 different ensemble methods. Credit goes out to Tim Head (link below), using these methods produced accuracy scores close to 94% and AUC of 97%. In terms of future improvements this is a very good example already. However, the main improvement I would like to work on in more feature engineering, I want to see if there are any other features I did not think of that would increase the accuracy of the model.
 
 https://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html
