@@ -1,14 +1,16 @@
 # Predictive Modelling Take Home Assignment
 
 ### Purpose
-Defining  an  "adopted  user"   as  a  user  who   has  logged  into  the  product  on  three  separate days  in  at  least  one  seven day  period ,  identify  which  factors predict  future  user adoption.
+Defining a "adopted  user" as a user who has logged into the product on three separate days in at least one seven day period, identify which factors predict future user adoption.
 
-### Data Wrangling
+### Data Wrangling & Feature Engineering
 
-### Feature Engineering
+I first created the adopted_user feature by resampling the logins table to each day and grouping by user_id. I then used a rolling 7 day count to set the adopted_user column to a 1 if the count was 3 or more, and a 0 if less than 3. This is the main feature used in predicting user adoption.
 
 ### Exploratory Data Analysis
-![image](https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png)
+The graphs below show the count of adopted users based on the features that will be used in predicting user adoption.
+
+![image](https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png =250x250)
 ![image](https://user-images.githubusercontent.com/41071502/133360803-45f56dc9-0220-4ccc-be38-416e3da55279.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360815-fa7d3e29-3572-4ef0-9664-05aef3971bf2.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360821-3d84f4b2-0bc2-48ce-bc13-d9ff63a868b8.png)
