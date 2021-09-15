@@ -12,7 +12,7 @@ The graphs below show the count of adopted users based on the features that will
 
 
 
-<img src="https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png" alt="alt text" width="250" height="200">
+<img src="https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png" alt="alt text" width="500" height="400">
 <img src="url" alt="alt text" width="whatever" height="whatever">
 <img src="url" alt="alt text" width="whatever" height="whatever">
 <img src="url" alt="alt text" width="whatever" height="whatever">
