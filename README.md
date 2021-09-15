@@ -28,12 +28,14 @@ https://www.r-bloggers.com/2019/03/what-it-the-interpretation-of-the-diagonal-fo
 
 ![image](https://user-images.githubusercontent.com/41071502/133364648-a977936b-45da-4630-83be-f00ff0808d73.png)
 
-
-
+The graph below shows the importance of each feature in. The higher the value the more important the feature.  
 ![image](https://user-images.githubusercontent.com/41071502/133364600-fc26e7d6-a4e6-439a-ac34-b746441205f9.png)
 
 
 #### Future Improvements
+I added a bonus modeling section in my notebook, I used the same data and features but applied 5 different ensemble methods. Credit goes out to Tim Head (link below), using these methods produced accuracy scores close to 94% and AUC of 97%. In terms of future improvements this is a very good example already. However, the main improvement I would like to work on in more feature engineering, I want to see if there are any other features I did not think of that would increase the accuracy of the model.
+
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html
 
 
 
