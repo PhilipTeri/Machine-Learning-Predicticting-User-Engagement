@@ -1,8 +1,14 @@
 # Predictive Modelling Take Home Assignment
 
 
+####Data Wrangling
+
+####Feature Engineering
 
 
+####Exploratory Data Analysis
+
+####Modeling
 
 ![image](https://user-images.githubusercontent.com/41071502/133360773-d421f9ee-dae2-4fec-abb1-1ccce424f498.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360803-45f56dc9-0220-4ccc-be38-416e3da55279.png)
