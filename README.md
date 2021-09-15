@@ -15,11 +15,13 @@ Defining  an  "adopted  user"   as  a  user  who   has  logged  into  the  produ
 ![image](https://user-images.githubusercontent.com/41071502/133360835-df06e62d-3e58-4ba3-b0e5-c6d16511f4d0.png)
 ![image](https://user-images.githubusercontent.com/41071502/133360842-620c9dc4-6089-41c3-aec8-9ac553a96449.png)
 
+The first image is the heatmap of correlation between feature in the dataset before I encoded the data. The second image below it is after I used pandas get_dummies method to encode the data.
 ![image](https://user-images.githubusercontent.com/41071502/133361122-18afb92b-a1c7-47e7-80f4-57bb59e63902.png)
 ![image](https://user-images.githubusercontent.com/41071502/133361131-c77cd7f6-ba2a-4eda-a759-329972a35dff.png)
 
 
 ### Modeling
+I created a machine learning pipeline using sklearn to assemble a random forest classifier alrgorithm with a standard scaler. I split the data into 90% training 10% test data. I would like to play around with the training-test split and some other parameters in the future to see if any quick improvements can be made.
 
 ### Results
 
